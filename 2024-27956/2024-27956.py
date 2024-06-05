@@ -62,7 +62,7 @@ def execc(web):
         quit()
 
     print("[+] Exploit completed!")
-    print("[+] administrator created: diavolo:geparadmain1")
+    print("[+] administrator created: diavolo:diavolo")
 
 verifyArgs(sys.argv)
 print("[+] Exploit for CVE-2024-27956")
