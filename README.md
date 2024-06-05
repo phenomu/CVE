@@ -1,2 +1,2 @@
 # CVE
-List CVE of Privilege Escalation
+List of CVEs
